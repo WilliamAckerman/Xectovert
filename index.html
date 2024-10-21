@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+        <title>Xectovert: Conversions to Octal and Hexadecimal</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="footer.css">
+        <script src="https://kit.fontawesome.com/7f03c30e61.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <main id="main-section">
+            <div class="card titleCard">
+                <h1 class="title">Xectovert</h1>
+                <p class="subtitle">Conversions to Octal and Hexadecimal</p>
+                <p class="subtitle">Created by William Ackerman</p>
+            </div>
+            <div class="card convertCard">
+                <h2 class="title">Conversion</h2>
+
+                <div id="resultDiv">
+                    <p id="resultMessage"></p>
+                    <p id="result"></p>
+                </div>
+                <br>
+
+                <form name="conversionForm" id="conversionForm" onsubmit="conversion();">
+                    <label for="number">Number:</label>
+                    <input name="number" id="number" type="number" required />
+
+                    <br>
+
+                    <input id="octBtn" type="radio" value="oct" name="format" checked>
+                    Octal
+                    <br>
+                    <input id="hexBtn" type="radio" value="hexadecimal" name="format">
+                    Hexadecimal
+
+                    <br>
+                    <button id="convertBtn" type="submit">CONVERT</button>
+                </form>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="contact-info">
+            <br>
+            <h2 class="footTitle">Contact Me</h2>
+            <p class="footSubTitle">
+                <strong>Email:</strong> 
+                <a href="mailto:williamjohnackerman@gmail.com">
+                    williamjohnackerman@gmail.com
+                    <i class="fa-regular fa-envelope" style="color: black"></i>
+                </a>
+                <br><br>
+                <strong>Phone:</strong>
+                <a href="tel:516-252-8285">
+                    (516) 252-8285
+                    <i class="fa fa-phone" style="color:  black"></i>
+                </a>
+                <br>
+            </p>
+            <h2 class="footSocialTitle">Social Media</h2>
+            <div class="social-media">
+                <a href="https://github.com/WilliamAckerman">
+                    <i class="fa fa-github" style="font-size: 36px"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/william-ackerman-6a4005290/">
+                    <i class="fa fa-linkedin" style="font-size: 36px"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</html>

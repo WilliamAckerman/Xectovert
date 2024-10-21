@@ -1,0 +1,30 @@
+/* Footer style */
+
+footer {
+    text-align: center;
+    background-color: rgb(12, 140, 140);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    flex-shrink: 0;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footTitle {
+    font-size: 36px;
+}
+
+.footSocialTitle {
+    font-size: 28px;
+}
+
+.footSubTitle {
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    background: linear-gradient(orange, lime) repeat-x;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.titleCard {
+    background-color: violet;
+    border: 5px solid rgb(12, 140, 140);
+    width: 60%;
+}
+
+.convertCard {
+    background-color: rgb(12, 140, 140);
+    border: 5px solid navy;
+    width: 75%;
+}
+
+#resultDiv {
+    background-color: rgb(185, 185, 6);
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    display: none;
+}
+
+#resultMessage {
+    font-size: 36px;
+}
+
+#result {
+    font-size: 54px;
+}
+
+.title {
+    font-size: 48px;
+    font-family: Georgia, sans-serif;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: Georgia, sans-serif;
+}
+
+#convertBtn {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: lightgray;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
