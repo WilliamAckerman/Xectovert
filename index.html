@@ -14,10 +14,16 @@
             <div class="card titleCard">
                 <h1 class="title">Xectovert</h1>
                 <p class="subtitle">Conversions to Octal and Hexadecimal</p>
-                <p class="subtitle">Created by William Ackerman</p>
+                <p class="subtitle">
+                    Created by 
+                    <a href="https://www.linkedin.com/in/william-ackerman-6a4005290/" target="_blank">
+                        William Ackerman
+                    </a>
+                </p>
             </div>
             <div class="card convertCard">
-                <h2 class="title">Conversion</h2>
+                <h2 class="title">Convert a Number</h2>
+                <p>This form can be used to convert a number to either octal or hexadecimal format.</p>
 
                 <div id="resultDiv">
                     <p id="resultMessage"></p>
@@ -26,18 +32,37 @@
                 <br>
 
                 <form name="conversionForm" id="conversionForm" onsubmit="conversion();">
-                    <label for="number">Number:</label>
+                    <label for="number" class="formNum">Number:</label>
                     <input name="number" id="number" type="number" required />
 
                     <br>
 
-                    <input id="octBtn" type="radio" value="oct" name="format" checked>
-                    Octal
-                    <br>
-                    <input id="hexBtn" type="radio" value="hexadecimal" name="format">
-                    Hexadecimal
+                    <p class="formNum">Please select a conversion type:</p>
 
-                    <br>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="octBtn" class="formText">
+                                    Octal
+                                </label>
+                            </td>
+                            <td>
+                                <input id="octBtn" type="radio" value="oct" name="format" checked>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="hexBtn" class="formText">
+                                    Hexadecimal
+                                </label>
+                            </td>
+                            <td>
+                                <input id="hexBtn" type="radio" value="hexadecimal" name="format">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br><br>
                     <button id="convertBtn" type="submit">CONVERT</button>
                 </form>
             </div>
@@ -63,10 +88,10 @@
             </p>
             <h2 class="footSocialTitle">Social Media</h2>
             <div class="social-media">
-                <a href="https://github.com/WilliamAckerman">
+                <a href="https://github.com/WilliamAckerman" target="_blank">
                     <i class="fa fa-github" style="font-size: 36px"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/william-ackerman-6a4005290/">
+                <a href="https://www.linkedin.com/in/william-ackerman-6a4005290/" target="_blank">
                     <i class="fa fa-linkedin" style="font-size: 36px"></i>
                 </a>
             </div>
