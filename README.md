@@ -68,6 +68,9 @@ Developers:
 External Resources:
 - ChatGPT
 - Google Gemini
+- Jest
+    - https://jestjs.io/docs/getting-started
+    - VS Code Jest extension by Orta
 
 Contact Information:
 

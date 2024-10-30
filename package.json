@@ -1,0 +1,18 @@
+{
+  "name": "Xectovert",
+  "version": "1.0.0",
+  "description": "Xectovert",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "William Ackerman",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

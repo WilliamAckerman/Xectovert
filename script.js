@@ -38,3 +38,5 @@ const conversion = () => {
     // Used to prevent page refreshing upon form submission
     event.preventDefault();
 }
+
+module.exports = { conversion };
