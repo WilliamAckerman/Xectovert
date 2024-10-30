@@ -18,9 +18,11 @@ body {
 }
 
 .titleCard {
-    background-color: violet;
-    border: 5px solid rgb(12, 140, 140);
-    width: 100%;
+    background-color: rgb(207, 255, 255);
+    border: 1px solid rgb(12, 140, 140);
+    width: 99.8%;
+    top: 0;
+    left: 0;
 }
 
 .convertCard {
@@ -55,7 +57,7 @@ body {
 
 /* Form CSS */
 
-.formNum {
+.formHandle {
     font-size: 24px;
 }
 
@@ -80,4 +82,27 @@ table {
     background-color: lightgray;
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+/* CSS for smaller screen sizes */
+@media screen and (max-width: 767px) {
+    .titleCard {
+        border: 1px solid rgb(12, 140, 140);
+        width: 99%;
+    }
+
+    #number {
+        width: 60%;
+        height: 1.5vh;
+        font-size: 16px;
+    }
+    .formHandle {
+        font-size: 16px;
+    }
+    #resultMessage {
+        font-size: 18px;
+    }
+    #result {
+        font-size: 24px;
+    }
 }

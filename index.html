@@ -8,6 +8,13 @@
         <link rel="stylesheet" href="footer.css">
         <script src="https://kit.fontawesome.com/7f03c30e61.js" crossorigin="anonymous"></script>
         <script src="script.js"></script>
+        <!-- 
+        This is Xectovert, a web application that allows users to 
+        convert numbers to either octal or hexadecimal format. This project
+        incorporates HTML, CSS, and JavaScript. 
+
+        -W.A.
+        -->
     </head>
     <body>
         <main id="main-section">
@@ -16,7 +23,7 @@
                 <p class="subtitle">Conversions to Octal and Hexadecimal</p>
                 <p class="subtitle">
                     Created by 
-                    <a href="https://www.linkedin.com/in/william-ackerman-6a4005290/" target="_blank">
+                    <a id="linkedInLink" href="https://www.linkedin.com/in/william-ackerman-6a4005290/" target="_blank">
                         William Ackerman
                     </a>
                 </p>
@@ -25,19 +32,58 @@
                 <h2 class="title">Convert a Number</h2>
                 <p>This form can be used to convert a number to either octal or hexadecimal format.</p>
 
+                <!--
+                This <div> element displays a message and the number the user entered in the form converted
+                to the format the user selected.
+
+                This <div> element is initially hidden until the user clicks the convert button, with a
+                number entered in the number input field of the form.
+
+                -W.A.
+                -->
                 <div id="resultDiv">
+
+                    <!--
+                    This displays the message of what the number the user has entered
+                    converted to the selected format is
+
+                    -W.A.
+                    -->
                     <p id="resultMessage"></p>
+
+                    <!--
+                    This displays the number the user entered converted to the
+                    selected format
+
+                    -W.A.
+                    -->
                     <p id="result"></p>
                 </div>
                 <br>
 
+                <!-- 
+                Form for a user to enter a number and convert it to octal or
+                hexadecimal format, depending on their choice.
+
+                When the convert button is clicked and a number has been entered
+                in the number input field, the number entered is converted to either
+                octal or hexadecimal format, depending on which radio button is clicked.
+
+                -W.A.
+                -->
                 <form name="conversionForm" id="conversionForm" onsubmit="conversion();">
-                    <label for="number" class="formNum">Number:</label>
+                    <label for="number" class="formHandle">Number:</label>
+
+                    <!-- 
+                    User inputs number to be converted
+                    
+                    -W.A.
+                    -->
                     <input name="number" id="number" type="number" required />
 
                     <br>
 
-                    <p class="formNum">Please select a conversion type:</p>
+                    <p class="formHandle">Please select a conversion type:</p>
 
                     <table>
                         <tr>
@@ -47,6 +93,12 @@
                                 </label>
                             </td>
                             <td>
+                                <!-- 
+                                Radio button; when selected when submit button is clicked,
+                                number will be converted to octal format
+
+                                -W.A.
+                                -->
                                 <input id="octBtn" type="radio" value="oct" name="format" checked>
                             </td>
                         </tr>
@@ -57,12 +109,26 @@
                                 </label>
                             </td>
                             <td>
+                                <!--
+                                Radio button; when selected when submit button is clicked,
+                                number will be converted to hexadecimal format
+
+                                -W.A.
+                                -->
                                 <input id="hexBtn" type="radio" value="hexadecimal" name="format">
                             </td>
                         </tr>
                     </table>
 
                     <br><br>
+                    <!--
+                    When the user clicks the convert button and has entered a number in the number
+                    input field, the number will be converted to either octal or hexadecimal
+                    format, depending on which radio button was selected. The result will also
+                    be displayed in the resultDiv element.
+
+                    -W.A.
+                    -->
                     <button id="convertBtn" type="submit">CONVERT</button>
                 </form>
             </div>
