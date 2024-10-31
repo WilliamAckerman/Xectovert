@@ -45,9 +45,13 @@ Installation Instructions:
 
 Usage:
 
+- By using Xectovert, one can type in a number they wish to convert to either octal or hexadecimal format, depending on which radio button is currently clicked.
+
 Converting to Octal:
+- To convert a number to octal format, type a number into the number input field. Then, ensure the radio button to convert to octal format is currently checked. If it is not checked, click the button in order to check it. The radio button to convert a number to octal format is checked by default.
 
 Converting to Hexadecimal:
+
 
 Testing:
 

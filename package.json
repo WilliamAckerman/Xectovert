@@ -1,7 +1,7 @@
 {
   "name": "xectovert",
   "version": "1.0.0",
-  "description": "Xectovert",
+  "description": "Xectovert is a web application that allows a user to enter a number, then convert it to either octal or hexadecimal format",
   "main": "script.js",
   "scripts": {
     "test": "jest"
