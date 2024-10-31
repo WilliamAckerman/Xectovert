@@ -58,6 +58,7 @@ Testing:
 Technologies/Dependencies:
 - CSS
 - JavaScript
+- Jest
 - HTML
 
 Contributing Guidelines:
