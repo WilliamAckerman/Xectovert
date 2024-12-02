@@ -56,6 +56,10 @@ body {
 
 /* Form CSS */
 
+.description {
+    font-size: 20px;
+}
+
 .formHandle {
     font-size: 24px;
 }
@@ -85,6 +89,12 @@ table {
 
 /* CSS for smaller screen sizes */
 @media screen and (max-width: 767px) {
+    .title {
+        font-size: 40px;
+    }
+    .description {
+        font-size: 15px;
+    }
     #number {
         width: 60%;
         height: 2vh;

@@ -5,7 +5,7 @@ const { conversion } = require('../script.js');
 document.getElementById = jest.fn();
 
 const mockElements = () => {
-    const number = { value: '1987' };
+    const number = { value: '23095' };
     const octBtn = { checked: false };
     const hexBtn = { checked: false };
     const resultDiv = { style: { display: 'none' } };
@@ -39,21 +39,12 @@ describe('conversion function', () => {
         jest.clearAllMocks();
     });
 
-    test('converts number to octal and updates the DOM', () => {
-        elements.octBtn.checked = true; // Set octal button as checked
-        conversion();
-
-        expect(elements.resultMessage.innerText).toBe('1987 converted to octal is:');
-        expect(elements.result.innerText).toBe('3703'); // 1987 in octal
-        expect(elements.resultDiv.style.display).toBe('block');
-    });
-
     test('converts number to hexadecimal and updates the DOM', () => {
         elements.hexBtn.checked = true; // Set hex button as checked
         conversion();
 
-        expect(elements.resultMessage.innerText).toBe('1987 converted to hexadecimal is:');
-        expect(elements.result.innerText).toBe('7C3'); // 1987 in hexadecimal
+        expect(elements.resultMessage.innerText).toBe('23095 converted to hexadecimal is:');
+        expect(elements.result.innerText).toBe('5A37'); // 23095 in hexadecimal format
         expect(elements.resultDiv.style.display).toBe('block');
     });
 

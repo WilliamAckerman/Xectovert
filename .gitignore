@@ -24,7 +24,7 @@ dist/
 build/
 
 # IDE and Editor specific files
-.vscode/
+# .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
