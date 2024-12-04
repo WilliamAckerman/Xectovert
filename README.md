@@ -6,7 +6,7 @@ Created by William Ackerman
 
 Current Version: 1.0
 
-# Table of Contents:
+# Table of Contents: 
 1. Description
 2. Installation/Setup
     - 2.1. Prerequisites
