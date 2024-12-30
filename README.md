@@ -6,6 +6,8 @@ Created by William Ackerman
 
 Current Version: 1.0
 
+[Link to documentation](https://docs.google.com/document/d/1y1j3nbtbRxNOzJOHChmOQYru0EVX8lZGckcYtJq6fwc/edit?usp=drive_link)
+
 # Table of Contents:
 1. Description
 2. Installation/Setup
