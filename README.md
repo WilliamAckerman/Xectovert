@@ -114,9 +114,9 @@ This project uses the MIT License. For more information, please refer to the [LI
 ### 8.2 External Resources:
 - ChatGPT
 - Google Gemini
+- VS Code Live Server extension
 - Jest
     - https://jestjs.io/docs/getting-started
-    - VS Code Jest extension by Orta
 - Responsive Test Tool: https://responsivetesttool.com/
 
 ## 9. Contact Information:
