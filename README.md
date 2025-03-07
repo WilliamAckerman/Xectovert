@@ -116,7 +116,6 @@ This project uses the MIT License. For more information, please refer to the [LI
 - Google Gemini
 - VS Code Live Server extension
 - Jest
-    - https://jestjs.io/docs/getting-started
 - Responsive Test Tool: https://responsivetesttool.com/
 
 ## 9. Contact Information:
